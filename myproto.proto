@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+message Dog {
+    string name = 1;
+    int32 age = 2;
+    string color = 3;
+}
+
+message DogGroup {
+    string name = 1;
+    repeated Dog dogs = 2;
+}
